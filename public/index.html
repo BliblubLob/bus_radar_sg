@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bus Radar SG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+
+
+<body>
+    <div><nav class="navbar navbar-expand-lg bg-info mb-2">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-bus"></i>
+            Bus Radar SG
+        </a>
+            
+
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav> </div>
+
+
+    <div class="row">
+        <div class="col-sm">
+
+            <div class = 'container mt-1 mb-4 pt-1 pb-2 '>
+                <h1 class="img-fluid "> Wonder whats the bus arrival timing? <i class="fa-solid fa-map-location-dot"></i>  </h1>
+            </div>
+        
+            <div>
+                <figcaption class="text-secondary mx-3 mb-1">
+                    Find out arrival time of buses at near your current mrt station.
+                  </figcaption>
+            </div>
+                    
+        </div>
+        <div class="col-sm">
+            
+    <!-- searchbar and suggestions -->
+    <form id="search_form" action = '/' class = "container" method = 'post'>
+        <div class="row">
+            <div class="col-8">
+                <input id="searchbar" name="searchbar" class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-success submit_button" type="submit">Search</button>
+            </div>
+        </div>
+
+        <div class = "container suggestion_container">
+            <div class="row ">
+                <div class="col-8">
+                    <div class="list-group inner_suggestion_container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </form>
+        </div>
+    </div>
+
+
+
+
+
+    <div>
+        <footer class="py-3 my-4" style="position: absolute; bottom: 0; width: 100%;">
+            <p class="text-center text-muted">Data from Onemap and datamall(LTA) </p>
+            <p class="text-center text-muted">© 2022 bliblubLob</p>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./index.js">
+        
+    </script>
+</body>
+</html>

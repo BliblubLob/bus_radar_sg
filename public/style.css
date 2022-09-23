@@ -1,0 +1,61 @@
+
+h4{
+    display: inline;
+}
+
+span{
+    display: inline-block;
+}
+
+
+.image-filler{
+    width: 50%;
+    height: 50px;
+}
+
+.img-fluid{
+    width: 120%;
+}
+
+.inline{
+    display: inline;
+}
+
+
+.form-control{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.suggestion_container{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+
+.bus_service{
+    display: inline-block;
+    width: 100%;
+}
+
+.bg-primary{
+    font-size: 1.1em;
+}
+
+.stop_no{
+    background-color:darkgrey;
+    font-size: 1.1em;
+}
+
+
+/* .accordion{
+    display: none;
+} */
+
+/* .inner_suggestion_container{
+
+} */
+
+
